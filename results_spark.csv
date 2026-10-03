@@ -1,0 +1,5 @@
+task,model,RMSE,MAE,R2,seconds,Accuracy,Precision,Recall,F1
+temperature,MLlib Linear Regression,0.824,0.609,0.969,4.2,,,,
+temperature,MLlib Random Forest,0.886,0.656,0.965,17.9,,,,
+rain,MLlib Logistic Regression,,,,6.7,0.857,0.752,0.869,0.806
+rain,MLlib Random Forest,,,,13.8,0.869,0.769,0.883,0.822

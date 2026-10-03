@@ -1,0 +1,8 @@
+task,model,RMSE,MAE,R2,Accuracy,Precision,Recall,F1
+temperature,Baseline (tomorrow = today),0.869,0.638,0.966,,,,
+temperature,Linear Regression,0.824,0.609,0.969,,,,
+temperature,Random Forest,0.818,0.605,0.97,,,,
+rain,Baseline (always dry),,,,0.657,0.0,0.0,0.0
+rain,Baseline (rain today -> rain tomorrow),,,,0.855,0.789,0.789,0.789
+rain,Logistic Regression,,,,0.857,0.752,0.869,0.806
+rain,Random Forest,,,,0.872,0.773,0.887,0.826
